@@ -1,0 +1,66 @@
+.banner2{
+    display: flex;
+    background-color: #ebfaf3;
+    height: 20vh;
+}
+
+.bim h1{
+    text-align: left;
+    margin-left: 110px;
+}
+
+.bim p{
+    margin-left: 110px;
+}
+
+.data{
+    margin-left: 110px;
+    width: 60%;
+}
+.data h1 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.data-left {
+    background-color: white;
+    color: black;
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+
+.data-right img{
+    position: relative;
+    margin-top: 10%;
+    margin-left: 15%;
+    width: 60%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebfaf3;
+
+}  
+
+
+.policy {
+    background-color: white;
+    color: black;
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+
+.policy-data img{
+    position: relative;
+    margin-top: 10%;
+    margin-left: 15%;
+    width: 60%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebfaf3;
+
+}  
