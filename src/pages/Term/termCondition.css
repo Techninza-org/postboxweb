@@ -1,21 +1,16 @@
-.banner2{
+.banner2 {
     display: flex;
     background-color: #ebfaf3;
     height: 20vh;
+    flex-wrap: wrap;
 }
 
-.bim h1{
-    text-align: left;
-    margin-left: 110px;
+.bim h1, .bim p, .data, .data h1, .data p {
+    margin-left: 5%; /* Changed to % for responsiveness */
 }
 
-.bim p{
-    margin-left: 110px;
-}
-
-.data{
-    margin-left: 110px;
-    width: 60%;
+.data {
+    width: 90%; /* Adjusted width for better responsiveness */
 }
 .data h1 {
     font-size: 2.5rem;
@@ -30,108 +25,152 @@
     background-color: white;
     color: black;
     display: flex;
-    height: 100%;
+    flex-direction: column;
+    height: auto; /* Adjust height to auto */
     width: 100%;
-  }
+}
 
-.data-right img{
+.data-right img {
     position: relative;
-    margin-top: 10%;
-    margin-left: 15%;
+    margin: 10% auto; /* Center image */
     width: 60%;
-    height: 15%;
+    height: auto; /* Keep aspect ratio */
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ebfaf3;
-
-}  
-
+}
 
 .policy {
     background-color: white;
-    margin-left: 100px;
+    margin: 0 auto; /* Centering container */
     color: black;
     display: flex;
-    height: 100%;
-    width: 100%;
-  }
+    flex-wrap: wrap; /* Enable wrapping to avoid horizontal scroll */
+    height: auto;
+    width: 90%;
+}
 
-.policy-data img{
-    margin-top: 10%;
-    margin-left: 10%;
+.policy-data {
+    flex: 1; /* Allow flexible size */
+}
+
+.policy-data img {
+    margin: 10% auto; /* Center image */
     position: relative;
     width: 60%;
-    height: 15%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #ebfaf3;
+}
 
-}  
-
-.policy-data h1{
+.policy-data h1 {
     font-size: 3rem;
     font-weight: 600;
 }
 
-.policy-data h2{
+.policy-data h2, .policy-data h3 {
     font-size: 2.5rem;
     font-weight: 400;
 }
-.policy-data h3{
-    font-size: 2rem;
-    font-weight: 400;
-}
 
-.policy-data p{
+.policy-data p {
     font-size: 1.5rem;
     font-weight: 400;
 }
 
-@media (max-width: 768px) {
-    .banner2,
-    .policy {
-        flex-direction: column; 
-        margin-left: 0; 
-        padding: 10px; 
-    }
-
-    .bim h1,
-    .bim p,
-    .data h1,
-    .data p {
-        margin-left: 0; 
-        text-align: center; 
-    }
-
+@media (max-width: 1024px) {
     .data h1 {
-        font-size: 2rem; 
+        font-size: 2rem;
     }
 
     .data p {
-        font-size: 1.2rem; 
+        font-size: 1.5rem;
     }
 
     .policy-data h1 {
-        font-size: 2.5rem; 
+        font-size: 2.5rem;
     }
 
-    .policy-data h2 {
-        font-size: 2rem; 
-    }
-
-    .policy-data h3 {
-        font-size: 1.8rem; 
+    .policy-data h2, .policy-data h3 {
+        font-size: 2rem;
     }
 
     .policy-data p {
-        font-size: 1.2rem; 
+        font-size: 1.2rem;
     }
 
-    
+    .policy-data img {
+        width: 80%; /* Make image responsive on tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    .banner2, .policy {
+        flex-direction: column; /* Stack items vertically */
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .bim h1, .bim p, .data h1, .data p {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .data h1 {
+        font-size: 1.8rem;
+    }
+
+    .data p {
+        font-size: 1.2rem;
+    }
+
+    .policy-data h1 {
+        font-size: 2.2rem;
+    }
+
+    .policy-data h2 {
+        font-size: 1.8rem;
+    }
+
+    .policy-data h3 {
+        font-size: 1.6rem;
+    }
+
+    .policy-data p {
+        font-size: 1.2rem;
+    }
+
     .data-right img,
     .policy-data img {
-        display: none; 
+        display: none; /* Hide large images on small devices */
+    }
+}
+
+@media (max-width: 480px) {
+    .data h1 {
+        font-size: 1.5rem;
+    }
+
+    .data p {
+        font-size: 1rem;
+    }
+
+    .policy-data h1 {
+        font-size: 1.8rem;
+    }
+
+    .policy-data h2 {
+        font-size: 1.6rem;
+    }
+
+    .policy-data h3 {
+        font-size: 1.4rem;
+    }
+
+    .policy-data p {
+        font-size: 1rem;
     }
 }
