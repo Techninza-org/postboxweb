@@ -1,4 +1,6 @@
 .banner {
+    margin-top: 10%;
+    margin-bottom: 10%;
     display: flex;
     justify-content: center;
     background-color: #ebfaf3;
@@ -8,17 +10,17 @@
   
   .bimage {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 20px;
   }
   
   .bimage img {
     width: 80px;
-    height: 50px;
+    height: 80px;
     padding-bottom: 5px;
   }
   
   .bimage p {
-    margin-top: 10px;
+    margin-top: 2px;
     font-size: 1.6rem;
     font-weight: 600;
   }
@@ -36,6 +38,47 @@
     font-size: 1.6rem;
     font-weight: 600;
   }
+
+  .banner2 {
+    margin-top: 4%;
+    display: flex;
+    background-color: #ebfaf3;
+    height: 25vh;
+  }
+  .banner3 {
+    margin-top: 4%;
+    display: flex;
+    background-color: #ebfaf3;
+    height: 20vh;
+  }
+  .bimage3 h1 {
+    margin-top: 30px;
+    margin-left: 90px;
+    font-size: 3rem;
+  }
+
+  .bimage3 p {
+    margin-left: 100px;
+    font-size: 1.5rem;
+  }
+  .banner4 {
+    margin-top: 4%;
+    display: flex;
+    background-color: #ebfaf3;
+    height: 20vh;
+  }
+  .bimage4 h1 {
+    margin-top: 50px;
+    margin-left: 90px;
+    font-size: 3rem;
+  }
+
+  .bimage4 p {
+    margin-left: 100px;
+    font-size: 1.5rem;
+  }
+
+  
   
   
   @media (max-width: 648px) {
@@ -71,5 +114,98 @@
       font-size: 1.4rem; 
       margin-top: 20px; 
     }
+    .banner2 {
+      flex-direction: column; 
+      height: auto;           
+      padding: 20px;          
+    }
+  
+    .bimage2 h1 {
+      margin-top: 10px;       
+      margin-left: 10px;      
+      font-size: 1.5rem;     
+      text-align: center;     
+    }
+  
+    .bimage2 p {
+      margin-top: 10px;       
+      margin-left: 10px;      
+      font-size: 1.2rem;      
+      text-align: center;     
+    }
+    .banner3 {
+      margin-top: 4%;
+      display: flex;
+      background-color: #ebfaf3;
+      height: 20vh;
+      justify-content: center; 
+      align-items: center; 
+      padding: 20px;
+      flex-direction: column; 
+  }
+  
+  .bimage3 h1 {
+      margin-top: 30px;
+      margin-left: 90px;
+      font-size: 3rem; 
+      text-align: center; 
+  }
+  
+  .bimage3 p {
+      margin-left: 100px;
+      font-size: 1.5rem; 
+      text-align: center; 
+  }
+  
+  .banner4 {
+      margin-top: 15%;
+      display: flex;
+      background-color: #ebfaf3;
+      height: 20vh;
+      justify-content: center; 
+      align-items: center; 
+      padding: 20px;
+      flex-direction: column; 
+  }
+  .bimage4 h1 {
+      margin-top: 40px;
+      margin-left: 90px;
+      font-size: 3rem; 
+      text-align: center; 
+  }
+  
+  .bimage4 p {
+      margin-left: 100px;
+      font-size: 1.5rem; 
+      text-align: center; 
+  }
+  
+  
+      .banner3,
+      .banner4 {
+          height: auto; 
+          flex-direction: column; 
+          padding: 10px; 
+      }
+  
+      .bimage3 h1,
+      .bimage3 p,
+      .bimage4 h1,
+      .bimage4 p {
+          margin-left: 0; 
+          text-align: center; 
+      }
+  
+      .bimage3 h1,
+      .bimage4 h1 {
+          font-size: 2rem; 
+          margin-top: 10px; 
+      }
+  
+      .bimage3 p,
+      .bimage4 p {
+          font-size: 1.2rem; 
+          margin-top: 10px; 
+      }
   }
   

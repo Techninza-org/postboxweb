@@ -37,7 +37,7 @@ export const Content1 = () => {
           to travel more!
         </p>
       </div>
-      <div className="content-image">
+      <div className="content-image2">
         <img src={b} alt="content" />
       </div>
     </div>
@@ -57,7 +57,7 @@ export const Content2 = () => {
           like-minded explorers. Travel is better together!.
         </p>
       </div>
-      <div className="content-image">
+      <div className="content-image3">
         <img src={p} alt="content" />
       </div>
     </div>

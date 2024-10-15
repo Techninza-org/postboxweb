@@ -1,23 +1,18 @@
 import React from "react";
-
-import Navbar from "./compontent/Navbar";
-import Hero from "./compontent/Hero/Hero";
-import { Banner, Banner1 } from "./compontent/Banner/Banner";
-import { Content, Content1, Content2 } from "./compontent/main/Content";
-import Footer from "./compontent/Footer/Footer";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import TermCon from "./pages/Term/TermCon";
+import Privacy from "./pages/Term/Privacy";
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <Banner />
-      <Content />
-      <Content1 />
-      <Content2 />
-      <Banner1 />
-      <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/term" element={<TermCon />} />
+        <Route path="/privacy" element={<Privacy />} />
+      </Routes>
+    </Router>
   );
 }
 

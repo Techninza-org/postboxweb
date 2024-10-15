@@ -1,0 +1,137 @@
+.banner2{
+    display: flex;
+    background-color: #ebfaf3;
+    height: 20vh;
+}
+
+.bim h1{
+    text-align: left;
+    margin-left: 110px;
+}
+
+.bim p{
+    margin-left: 110px;
+}
+
+.data{
+    margin-left: 110px;
+    width: 60%;
+}
+.data h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.data p {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.data-left {
+    background-color: white;
+    color: black;
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+
+.data-right img{
+    position: relative;
+    margin-top: 10%;
+    margin-left: 15%;
+    width: 60%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebfaf3;
+
+}  
+
+
+.policy {
+    background-color: white;
+    margin-left: 100px;
+    color: black;
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+
+.policy-data img{
+    margin-top: 10%;
+    margin-left: 10%;
+    position: relative;
+    width: 60%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebfaf3;
+
+}  
+
+.policy-data h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.policy-data h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.policy-data h3{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.policy-data p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    .banner2,
+    .policy {
+        flex-direction: column; 
+        margin-left: 0; 
+        padding: 10px; 
+    }
+
+    .bim h1,
+    .bim p,
+    .data h1,
+    .data p {
+        margin-left: 0; 
+        text-align: center; 
+    }
+
+    .data h1 {
+        font-size: 2rem; 
+    }
+
+    .data p {
+        font-size: 1.2rem; 
+    }
+
+    .policy-data h1 {
+        font-size: 2.5rem; 
+    }
+
+    .policy-data h2 {
+        font-size: 2rem; 
+    }
+
+    .policy-data h3 {
+        font-size: 1.8rem; 
+    }
+
+    .policy-data p {
+        font-size: 1.2rem; 
+    }
+
+    
+    .data-right img,
+    .policy-data img {
+        display: none; 
+    }
+}

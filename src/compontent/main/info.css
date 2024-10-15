@@ -18,19 +18,19 @@
 
 .content-text h1 {
   color: rgb(33, 108, 161);
-  font-size: 2rem;
+  font-size: 2.3rem;
   margin-bottom: 5px;
 }
 
 .content-text p {
-  font-size: 1.25rem;
+  font-size: 1.7rem;
   color: #666;
 }
 
 .content-image {
   margin-top: 10%;
   width: 50%;
-  height: 60%;
+  height: 65%;
   flex: 1;
   display: flex;
   justify-content: center;
@@ -39,6 +39,37 @@
 }
 
 .content-image img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.content-image2 {
+  margin-top: 0%;
+  width: 50%;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.content-image2 img {
+  height: 100%;
+  object-fit: cover;
+}
+.content-image3 {
+  margin-top: 0%;
+  width: 50%;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.content-image3 img {
   height: 100%;
   object-fit: cover;
 }
@@ -70,14 +101,41 @@
      width: 60%; 
      height: 50%;
      margin-left: 20%;
-     margin-bottom: 20%;
-     margin-top: 20%
+     
   }
 
   .content-image img {
-    width: 100%; 
+    width: 60%; 
     height: auto; 
     object-fit: contain; 
   }
+
+  .content-image2 {
+    justify-content: center;
+    width: 60%; 
+    height: 50%;
+    margin-left: 20%;
+    
+ }
+
+ .content-image2 img {
+   width: 100%; 
+   height: auto; 
+   object-fit: contain; 
+ }
+  .content-image3 {
+    justify-content: center;
+    width: 60%; 
+    height: 50%;
+    margin-left: 20%;
+   
+ }
+
+ .content-image3 img {
+   width: 100%; 
+   height: auto; 
+   object-fit: contain; 
+ }
+
 }
 }

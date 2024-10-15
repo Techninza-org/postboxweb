@@ -27,3 +27,24 @@ export const Banner1 = () => {
     </div>
   );
 };
+export const Banner2 = () => {
+  return (
+    <div className="banner3">
+      <div className="bimage3">
+        <h1>Terms and Conditions</h1>
+        {/* <p>Home & Terms and Conditions</p> */}
+      </div>
+    </div>
+  );
+};
+export const Banner3 = () => {
+  return (
+    <div className="banner4">
+      <div className="bimage4">
+        <h1>Privacy Policy</h1>
+        {/* <p>Home & Privacy Policy</p> */}
+      </div>
+    </div>
+  );
+};
+export default Banner3;

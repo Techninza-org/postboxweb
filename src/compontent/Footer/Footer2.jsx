@@ -4,13 +4,6 @@ import postboxlogo from "../../assets/postboxlogo.jpeg";
 import "./footer.css";
 
 const Footer = () => {
-  const openPage1 = () => {
-    window.open("/termCon", "noopener,noreferrer");
-  };
-
-  const openPage2 = () => {
-    window.open("/privacy", "noopener,noreferrer");
-  };
   return (
     <div>
       <div className="footer">
@@ -18,23 +11,19 @@ const Footer = () => {
           <ul>
             <li>
               {" "}
-              <Link to="/termCon" onClick={openPage1}>
-                Terms and Conditions
-              </Link>
+              <Link to="/">Terms and Conditions</Link>
             </li>
             <li>
               {" "}
-              <Link to="/privacy" onClick={openPage1}>
-                Privacy Policy
-              </Link>
+              <Link to="/privacy">Privacy Policy</Link>
             </li>
             <li>
-              <Link to="/privacy" onClick={openPage2}>
-                Refund Policy
-              </Link>
+              <Link to="/privacy">Refund Policy</Link>
             </li>
             <li>
-              <img src={postboxlogo} alt="Logo" className="logo" />
+              <Link to="/">
+                <img src={postboxlogo} alt="Logo" className="logo" />
+              </Link>
             </li>
           </ul>
         </div>

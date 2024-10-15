@@ -5,13 +5,19 @@
   background-color: #333;
   color: white;
   font-size: 1rem;
-  padding: 20px;
+}
+.footer-copyright ul {
+  list-style-type: none; 
+  padding-left: 0;
 }
 
-
+.footer-links ul {
+  list-style-type: none; 
+  padding-left: 0;
+}
 .footer-links {
   list-style-type: none;
-  margin-left: 20%;
+  margin-left: 15%;
   padding: 0;
 }
 
@@ -58,14 +64,15 @@
   }
 
   .footer-links {
+    font-size: 1rem;
     margin: 0 auto 20px; 
     padding: 0;
   }
-
-  .footer-links li {
-    margin-bottom: 5px; 
-  }
-
+  
+  .footer-links ul {
+    list-style-type: none; 
+    padding-left: 0;
+  }  
   .footer-right {
     margin: 20px 0; 
     text-align: center; 
@@ -74,9 +81,8 @@
   .footer-copyright {
     display: block; 
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding-right: 0; 
-    margin-top: 10px;
   }
 
   .footer-links img {
