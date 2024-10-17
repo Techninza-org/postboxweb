@@ -61,7 +61,7 @@
     width: 60%;
     height: auto;
     display: flex;
-    justify-content: center;
+    justify-content: center;    
     align-items: center;
     background-color: #ebfaf3;
 }
@@ -110,7 +110,7 @@
 @media (max-width: 768px) {
     .banner2, .policy {
         flex-direction: column; /* Stack items vertically */
-        margin-left: 0;
+        /* margin-left: 0; */
         padding: 10px;
     }
 

@@ -14,8 +14,11 @@ const Navbar = () => {
     <nav className="navbar">
      
       <div className="navbar-logo">
+        <Link href="/">
         <img src={postboxlogo} alt="Logo" className="logo" />
+        </Link>
       </div>
+      <div>
       <ul className={`navbar-menu ${isOpen ? "active" : ""}`}>
         <li>
           <Link to="/">Home</Link>
@@ -28,6 +31,7 @@ const Navbar = () => {
       <button className="navbar-toggle" onClick={toggleMenu}>
         {isOpen ? "X" : "☰"}
       </button>
+      </div>
      
     </nav>
   );

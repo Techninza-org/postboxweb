@@ -62,10 +62,10 @@
     font-size: 1.5rem;
   }
   .banner4 {
-    margin-top: 4%;
+    /* margin-top: 4%; */
     display: flex;
     background-color: #ebfaf3;
-    height: 20vh;
+    padding:3rem 0.5rem;
   }
   .bimage4 h1 {
     margin-top: 50px;
@@ -134,7 +134,7 @@
       text-align: center;     
     }
     .banner3 {
-      margin-top: 4%;
+     
       display: flex;
       background-color: #ebfaf3;
       height: 20vh;
@@ -158,13 +158,13 @@
   }
   
   .banner4 {
-      margin-top: 15%;
+      /* margin-top: 15%; */
       display: flex;
       background-color: #ebfaf3;
       height: 20vh;
       justify-content: center; 
       align-items: center; 
-      padding: 20px;
+      /* padding: 20px; */
       flex-direction: column; 
   }
   .bimage4 h1 {
@@ -183,7 +183,7 @@
   
       .banner3,
       .banner4 {
-          height: auto; 
+          /* height: auto;  */
           flex-direction: column; 
           padding: 10px; 
       }
@@ -199,7 +199,7 @@
       .bimage3 h1,
       .bimage4 h1 {
           font-size: 2rem; 
-          margin-top: 10px; 
+          /* margin-top: 10px;  */
       }
   
       .bimage3 p,
