@@ -41,8 +41,18 @@ export const Banner3 = () => {
   return (
     <div className="banner4">
       <div className="bimage4">
-        <h1>Privacy Policy</h1>
-        {/* <p>Home & Privacy Policy</p> */}
+        <h1>Return and Refund Policy  </h1>
+        {/* <p>Home & Refundpolicy Policy</p> */}
+      </div>
+    </div>
+  );
+};
+export const Banner4 = () => {
+  return (
+    <div className="banner4">
+      <div className="bimage4">
+        <h1>Privacy and Policy  </h1>
+        {/* <p>Home & Refundpolicy Policy</p> */}
       </div>
     </div>
   );

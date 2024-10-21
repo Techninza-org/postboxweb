@@ -16,7 +16,7 @@ export const Content = () => {
         </p>
       </div>
       <div className="content-image">
-        <img src={abc} alt="content" />
+        <img src={p} alt="content" />
       </div>
     </div>
   );

@@ -23,9 +23,9 @@ const Navbar = () => {
         <li>
           <Link to="/">Home</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/contact">Contact Us</Link>
-        </li>
+        </li> */}
        
       </ul>
       <button className="navbar-toggle" onClick={toggleMenu}>

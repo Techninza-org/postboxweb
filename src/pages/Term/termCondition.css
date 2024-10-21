@@ -5,19 +5,19 @@
     flex-wrap: wrap;
 }
 
-.bim h1, .bim p, .data, .data h1, .data p {
-    margin-left: 5%; /* Changed to % for responsiveness */
+.bim h1, .bim p, .data h1, .data p {
+    margin-left: 5%; /* Responsive margin */
 }
 
 .data {
-    width: 90%; /* Adjusted width for better responsiveness */
+    width: 90%; /* Responsive width */
 }
 .data h1 {
     font-size: 2.5rem;
     font-weight: 500;
 }
 .data p {
-    font-size: 2rem;
+    font-size: 12px;
     font-weight: 500;
 }
 
@@ -25,16 +25,15 @@
     background-color: white;
     color: black;
     display: flex;
-    flex-direction: column;
-    height: auto; /* Adjust height to auto */
+    height: auto; /* Automatic height adjustment */
     width: 100%;
 }
 
 .data-right img {
     position: relative;
-    margin: 10% auto; /* Center image */
+    margin: 10% auto; /* Centering the image */
     width: 60%;
-    height: auto; /* Keep aspect ratio */
+    height: auto; /* Maintain aspect ratio */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,25 +42,27 @@
 
 .policy {
     background-color: white;
-    margin: 0 auto; /* Centering container */
+    margin: 0 auto; /* Center the container */
     color: black;
     display: flex;
-    flex-wrap: wrap; /* Enable wrapping to avoid horizontal scroll */
+    flex-wrap: wrap; /* Enable wrapping */
     height: auto;
     width: 90%;
 }
 
 .policy-data {
-    flex: 1; /* Allow flexible size */
+    flex: 1; /* Flexible sizing */
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .policy-data img {
-    margin: 10% auto; /* Center image */
+    margin: 10% auto; /* Center the image */
     position: relative;
     width: 60%;
     height: auto;
     display: flex;
-    justify-content: center;    
+    justify-content: center;
     align-items: center;
     background-color: #ebfaf3;
 }
@@ -80,6 +81,8 @@
     font-size: 1.5rem;
     font-weight: 400;
 }
+
+/* Media Queries for Responsive Design */
 
 @media (max-width: 1024px) {
     .data h1 {
@@ -103,20 +106,19 @@
     }
 
     .policy-data img {
-        width: 80%; /* Make image responsive on tablets */
+        width: 80%; /* Adjust image width on tablets */
     }
 }
 
 @media (max-width: 768px) {
     .banner2, .policy {
         flex-direction: column; /* Stack items vertically */
-        /* margin-left: 0; */
         padding: 10px;
     }
 
     .bim h1, .bim p, .data h1, .data p {
         margin-left: 0;
-        text-align: center;
+        text-align: center; /* Center text on smaller devices */
     }
 
     .data h1 {
@@ -124,7 +126,8 @@
     }
 
     .data p {
-        font-size: 1.2rem;
+        font-size: 12px;
+        color:#999999; /* Light gray for smaller fonts */
     }
 
     .policy-data h1 {
@@ -140,12 +143,12 @@
     }
 
     .policy-data p {
-        font-size: 1.2rem;
+        font-size: 12px;
     }
 
     .data-right img,
     .policy-data img {
-        display: none; /* Hide large images on small devices */
+        display: none; /* Hide images on small screens */
     }
 }
 
